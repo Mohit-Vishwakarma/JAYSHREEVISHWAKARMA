@@ -1,0 +1,41 @@
+2024-05-21T11:57:54.786Z info: Loading existing Excel file.
+2024-05-21T11:57:54.809Z info: Server running on http://localhost:3000
+2024-05-21T11:58:17.012Z info: Fetched all orders.
+2024-05-21T11:58:28.665Z info: Excel file saved.
+2024-05-21T11:58:28.665Z info: Order with ID 1716292708654 appended.
+2024-05-21T11:58:28.666Z info: Created new order with ID 1716292708654.
+2024-05-21 17:34:45 info: Loading existing Excel file.
+2024-05-21 17:34:45 info: Server running on http://localhost:3000
+2024-05-21 17:34:50 info: Excel file saved.
+2024-05-21 17:34:50 info: Order with ID 1716293090676 appended.
+2024-05-21 17:34:50 info: Created new order with ID 1716293090676.
+2024-05-21 17:34:53 info: Fetched all orders.
+2024-05-21 17:47:06 info: Fetched all orders.
+2024-05-21 17:47:06 info: Fetched all orders.
+2024-05-21 17:55:32 info: Loading existing Excel file.
+2024-05-21 17:55:32 info: Server running on http://localhost:3000
+2024-05-21 17:55:38 info: Fetched all orders.
+2024-05-21 17:55:58 info: Fetched all orders.
+2024-05-21 17:55:58 info: Fetched all orders.
+2024-05-21 18:02:18 info: Fetched all orders.
+2024-05-21 18:02:39 info: Fetched all orders.
+2024-05-21 18:02:39 info: Fetched all orders.
+2024-05-21 18:03:02 info: Fetched all orders.
+2024-05-21 18:03:02 info: Fetched all orders.
+2024-05-21 21:59:28 info: Loading existing Excel file.
+2024-05-21 21:59:28 info: Server running on http://localhost:3000
+2024-05-21 21:59:52 info: Fetched all orders.
+2024-05-21 22:00:26 info: Fetched all orders.
+2024-05-21 22:00:43 warn: Order with ID name not found.
+2024-05-21 22:00:47 warn: Order with ID mohit not found.
+2024-05-21 22:00:49 warn: Order with ID mohit not found.
+2024-05-21 22:02:07 info: Loading existing Excel file.
+2024-05-21 22:02:07 info: Server running on http://localhost:3000
+2024-05-21 22:02:14 warn: Order with ID mohit not found.
+2024-05-21 22:02:36 warn: Order with ID mohit not found.
+2024-05-21 22:02:50 info: Loading existing Excel file.
+2024-05-21 22:02:50 info: Server running on http://localhost:3000
+2024-05-21 22:02:58 warn: Order with name mohit not found.
+2024-05-21 22:03:58 info: Fetched all orders.
+2024-05-21 22:06:00 info: Loading existing Excel file.
+2024-05-21 22:06:00 info: Server running on http://localhost:3000
