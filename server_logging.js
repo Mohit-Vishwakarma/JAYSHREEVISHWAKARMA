@@ -133,7 +133,23 @@ app.get('/orders/:id', (req, res) => {
         res.status(500).send(err);
     }
 });
-
+// Search by name 
+app.get('/search/:name',(req,res) => {
+    try{
+    const orders = readOrders();
+    const nameToSearch = req.params.name.toLowerCase();
+    const matchingOrders = orders.filter(o => o[1].toLowerCase().includes(nameToSearch));
+    if (!order) {
+        logger.warn(`Order with name ${req.params.name} not found.`);
+        return res.status(404).send('Order not found');
+    }
+    logger.info(`Fetched order with Name ${req.params.name}.`);
+    res.json(matchingOrders);
+    } catch (err) {
+        logger.error('Error fetching order: ', err);
+        res.status(500).send(err);
+    }
+});
 // Create new order
 app.post('/orders', (req, res) => {
     const newOrder = { id: `${Date.now()}`, ...req.body, dateOfCreation: moment().format('YYYY-MM-DD HH:mm:ss') };
